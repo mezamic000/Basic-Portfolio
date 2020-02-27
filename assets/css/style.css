@@ -1,4 +1,4 @@
-header {
+h1 {
     font-family: Georgia, Times, Times New Roman, serif;
     font-weight: bold;
 }
@@ -10,37 +10,52 @@ header {
     width: 150px;
     height: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px;
+    margin: 0;
     font-size: 20px;
 }
 
-.title {
+nav {
+    display: flex;
+}
+
+.AboutMe {
     color: #4aaaa5;
     padding: 20px;
     font-size: 22px;
+    width: 959px;
+    margin:auto;
 }
 
 li {
-    display: inline;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    display: inline;
+    padding: 20px 10px;
 }
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    margin: 100px;
+    line-height: 2;
+    padding: 10px;
 }
 
 footer {
     text-align: center;
     background-color: #666666;
     color: #777777;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     padding: 10px;
 }
 
-.content {
+.imageALLtext {
     border: 1px solid #dddddd;
     background-color: #ffffff;
+    width: 959px;
+    margin:auto;
+}
+
+.imageANDintro {
+            display:flex;
 }
